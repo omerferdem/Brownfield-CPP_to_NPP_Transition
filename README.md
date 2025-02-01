@@ -3,6 +3,8 @@ The dataset and codes which has been used while analyzing the suitability of NPP
 
 The preprocessing (1), processing (2), postprocessing (3) and neural network training (4) steps are outlined below:
 
+1) Data generation of the brownfields and CPPs are done separately in this folder. 
+
 1.1) The preprocessing starts at Data Generation. The raw data from GeoDataBase files exist in bf folder. "merge_data.py" merges these data from different data acquisition steps. 
 
 1.2) In cpp folder, the raw data of coal power plants are merged. Then the codes "coord_to_state_county.py", "state_county_to_fips.py", and "merge_objectives_and_fips.py" merge the FIPS codes of each CPP with the raw datasets.
